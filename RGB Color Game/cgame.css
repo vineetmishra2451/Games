@@ -1,0 +1,115 @@
+body{
+    background: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0;
+}
+.container{
+    max-width: 690px;
+    width: 70%;
+    margin: 0 auto;
+}
+.colorblock{
+    width: 30%;
+    background: blue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.5%;
+    margin-top: 15px;
+    border-radius: 20px;
+    transition: background 0.8s;
+}
+.colorPlate{
+    width: 30%;
+    max-width: 500px;
+    margin-top: 4%;
+    position: unset;
+    margin-left: 33%;
+    margin-bottom: 5%;
+    background: steelblue;
+    padding-bottom: 30%;
+    border-radius: 20%;
+}
+.selected{
+    background: tomato;
+    color: azure;
+}
+input{
+    width: 12%;
+}
+h1{
+    background: steelblue;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+    padding : 3% 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+h2{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#mainMenu{
+    background: white;
+    text-align: center;
+}
+
+#guess{
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#rgbcolor{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+button{
+    margin: 0;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;    
+}
+#refresh{
+    background: firebrick;
+    color: aliceblue;
+    border: 1px solid red;
+    margin: 0 40%;
+}
+button:hover{
+    color:white;
+    background: steelblue;
+}
+#refresh:hover{
+    background: antiquewhite;
+    color: tomato;
+}
+#red{
+    border: 0;
+    background: firebrick;
+    color: white;
+    padding-top: 3px;
+}
+#blue{
+    border: 0;
+    background: blue;
+    color: white;
+    padding-top: 3px;
+}
+#green{
+    border: 0;
+    background: green;
+    color: white;
+    padding-top: 3px;
+}

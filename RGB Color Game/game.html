@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RGB Color Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="cgame.css">
+    </head>
+    <body>
+        <h1>The Great<br> <span id="rgbcolor">RGB</span><br>Color Guessing Game</h1>
+        <div id="mainMenu">
+            <div id="menu">
+                <button id="reset">New Colors</button>
+                <span id="guess"></span>
+                <button id="easy">Easy</button>
+                <button id="hard" class="selected">Hard</button>
+                <span id="space"></span>
+            </div>
+                <button id="checker">RGB Checker</button>
+             
+        </div>
+           
+            
+        <div class = "container">
+            <div class="colorblock"></div>
+            <div class="colorblock"></div>
+            <div class="colorblock"></div>
+            <div class="colorblock"></div>
+            <div class="colorblock"></div>
+            <div class="colorblock"></div>
+            <div id="colorchecker">
+                <h2>
+                    Enter the RGB Values<br>
+                    <span><input id="red" type="number" min="0" max="255"></span>
+                    <span><input id="green" type="number" min="0" max="255"></span>
+                    <span><input id="blue" type="number" min="0" max="255"></span>
+                </h2>
+                <div class = "colorPlate"></div>
+                <button id="refresh">REFRESH</button>
+            </div>
+        </div>
+ 
+        
+        
+        <script src="rgbgame.js" async defer></script>
+    </body>
+</html>

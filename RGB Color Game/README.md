@@ -1,4 +1,4 @@
-##RGB Color Guessing Game##
+#RGB Color Guessing Game
 
 Guess the color by its RGB displayed. Game has two modes easy and hard.
 

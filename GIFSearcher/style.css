@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    text-align: center;
+    background: url(https://previews.123rf.com/images/taigi/taigi1201/taigi120100011/11855962-old-blue-graph-paper-square-grid-background.jpg);
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    height: 100px;
+    margin: 0;
+    background: url(https://i.pinimg.com/originals/c4/b5/07/c4b5076a2a215e0b6d341a3f399ccf99.jpg);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-family: cursive;
+    font-size: small;
+    font-weight: 500;
+}
+.menu{
+    text-align: center;
+}
+
+.container{
+    margin-top: 5px;
+}
+.imageArea{
+    padding:0 5px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: justify-all;
+
+}
+img{
+    margin: 0 5px 20px 5px;
+}
+
+input{
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 27px;
+    border-radius: 8px;
+}
+button{
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin: 15px 10px;
+    width: 42%;
+    height: 40px;
+    border: 5px solid steelblue;
+    border-radius: 8px;
+    background: 0;
+    transition: background ease-in 0.5s;
+    outline: none;
+}
+button:hover{
+    color: azure;
+    background-color: steelblue;
+}
+.btn{
+    background: greenyellow;
+    border: 1px solid firebrick;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    transition: background ease-in 0.5s;
+}
+
+.btn:hover{
+    background: whitesmoke;
+    color: firebrick;
+}
+@media(max-width:500px)
+{
+    h1{
+        font-size: 3em;
+    }
+    .image{
+        max-width: 200px;
+        padding-left: 10px;
+    }
+
+}
